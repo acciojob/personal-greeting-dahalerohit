@@ -8,11 +8,11 @@ const App = () => {
 
   return (
     <div>
-      <h2>Personalized Greeting</h2>
+      <h2>Enter your name</h2>
 
       <input
         type="text"
-        placeholder="Enter your name"
+        placeholder=""
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
