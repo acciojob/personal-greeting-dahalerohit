@@ -1,10 +1,9 @@
-import React, { useState } from "react";
-import React from "react";
-import './../styles/App.css';
+import { useState } from "react";
+
 
 const App = () => {
-  return (
-    const [name, setName] = useState("");
+  
+    const[name, setName] = useState("");
 
   return (
     <div>
@@ -17,7 +16,7 @@ const App = () => {
         onChange={(e) => setName(e.target.value)}
       />
 
-      {name.trim() !== "" && <h3>Hello, {name}!</h3>}
+      {name.trim() !== "" && <h3>Hello {name}!</h3>}
     </div>
   );
 }
